@@ -1,0 +1,75 @@
+$primary_color: #044095;
+$white_color :#ffffff;
+
+
+.login-page {
+	background-color: $primary_color !important;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: -webkit-center;
+	height: 100vh; /* Full viewport height */
+	margin: 0; /* Reset margin to ensure full height */
+  }
+
+// .login-page {
+// 	background-color: $primary_color;
+// 	text-align: -webkit-center;
+// 	height: 100%;
+// 	padding: 10px;
+// }
+.login-card {
+	max-width: 700px;
+	background-color: $primary_color !important;
+	//padding: auto 0;
+	margin: 5% 0;
+  
+}
+.login-form {
+	border: solid 1px $white_color !important;
+  border-radius: 3%;
+}
+.form-content {
+	width: 70%;
+}
+.login-button{
+	color: $white_color !important;
+  background-color: $primary_color !important;
+  border: solid 1px $white_color !important;
+  border-radius: 5% !important;
+  margin-top: 8px !important;
+}
+.login-header-image   {
+	background-image: url('../../../../../assets/images/Logo.png');
+	background-size: cover;
+  background-color: $white_color;
+  margin: auto;
+  height: 100px !important;
+  width: 100px !important;
+  margin-bottom: 20px !important;
+}
+
+	//.login-form {
+		// min-width: 150px;
+		// max-width: 500px;
+		// width: 100%;
+	//}
+
+.login-full-width {
+  margin-top: 20px;
+	width: 100%;
+
+}
+
+// .login-input{
+ 
+//   text-align: center; 
+
+// }
+
+
+
+
+.mat-mdc-tab.mdc-tab--active .mdc-tab__text-label {
+    color: #fff !important;
+}
